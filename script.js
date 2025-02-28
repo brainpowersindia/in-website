@@ -1,11 +1,4 @@
-function callUs() {
-
-    window.open("tel:+918433569122","_blank")
-}
-
-function whatsappUs() {
-
-    // Event snippet for Whatsapp Button Clicked conversion page
+ // Event snippet for Whatsapp Button Clicked conversion page
     
     function gtag_report_conversion(url) {
       var callback = function () {
@@ -22,6 +15,15 @@ function whatsappUs() {
       return false;
     }
 
+function callUs() {
+
+    window.open("tel:+918433569122","_blank")
+}
+
+function whatsappUs() {
+
+    gtag_report_conversion("");
+   
     window.open("https://wa.me/918433569122/?text=मला%20अधिक%20माहिती%20हवी%20आहे.","_blank");
 }
 // Function to be called when the section is visible
