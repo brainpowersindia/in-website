@@ -5,9 +5,8 @@ function callUs() {
 
 function whatsappUs() {
 
-        <!-- Event snippet for Whatsapp Button Clicked conversion page
-    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-    <script>
+    // Event snippet for Whatsapp Button Clicked conversion page
+    
     function gtag_report_conversion(url) {
       var callback = function () {
         if (typeof(url) != 'undefined') {
@@ -22,8 +21,6 @@ function whatsappUs() {
       });
       return false;
     }
-    </script>
-
 
     window.open("https://wa.me/918433569122/?text=मला%20अधिक%20माहिती%20हवी%20आहे.","_blank");
 }
